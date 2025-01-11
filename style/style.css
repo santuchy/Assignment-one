@@ -1,65 +1,70 @@
-*{margin:0 ;
+* {
+   margin: 0;
    padding: 0;
 }
 
 .fira-sans-bold {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+   font-family: "Fira Sans", serif;
+   font-weight: 700;
+   font-style: normal;
+}
 
-  /*header style*/
-  
- header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin: 50px 200px;
- }
+/*header style*/
 
- .button-primary {
-    padding color: none;
-        background-color: #006A50;
-        color: white;
-        border: none;
-        padding: 15px 25px;
-        border-radius: 8px;
-        cursor: pointer;
-    }
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   margin: 50px 200px;
+}
 
- nav ul li {
-    list-style: none;
- }
+.button-primary {
+   padding color: none;
+   background-color: #006A50;
+   color: white;
+   border: none;
+   padding: 15px 25px;
+   border-radius: 8px;
+   cursor: pointer;
+}
 
- /* bd section style */
-.section-container{
+nav ul li {
+   list-style: none;
+}
+
+/* banner style */
+.section-container {
    display: flex;
    justify-content: center;
    gap: 64px;
    padding: 100px 60px;
 }
-.bd{
+
+.banner {
    background-color: #C6E4D6;
    margin: 20px 160px;
    border-radius: 24px;
    font-family: "Fira Sans"
 }
-.section-tittle{
+
+.section-title {
    color: rgba(14, 14, 14, 0.5);
    font-size: 24px;
    font-weight: 500;
    text-align: left;
    padding-bottom: 2px;
 }
-.section-description{
+
+.section-description {
    color: rgb(14, 14, 14);
    font-size: 56px;
    font-weight: 700;
    text-align: left;
    padding-bottom: 24px;
 }
-.btn-primary{
+
+.btn-primary {
    color: rgb(255, 255, 255);
    font-size: 18px;
    font-weight: 600;
@@ -68,4 +73,146 @@
    background: rgb(0, 106, 80);
    padding: 17px 34px 17px 34px;
    border: none;
+}
+
+/*Vision sec start*/
+
+.tech{
+
+width: 1400px;
+height: 900px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+}
+
+.tech-title-main {
+   margin: 20px 160px;
+   font-size: 40px;
+}
+
+.tech-description{
+   margin: 20px 160px;
+   position: static;
+   width: 1280px;
+   height: 48px;
+   color: rgba(14, 14, 14, 0.7);
+   font-family: Fira Sans;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 12;
+   padding: 0px;   
+}
+
+/*Tech section style*/
+
+.tech-container{
+   display: flex;
+   flex-direction: row;
+   gap: 24px;
+   justify-content: center;
+   text-align: left;
+   
+ }
+
+ .tech-descrip{
+   padding: 30px;
+ 
+ }
+
+ .tech1 {
+   box-sizing: border-box;
+border-radius: 16px;
+width: 300px;
+background: rgba(84, 144, 245, 0.2);
+padding: 20px 20px;
+margin-top: 20px;
+}
+
+ .tech2 {
+   box-sizing: border-box;
+   border-radius: 16px;
+   width: 300px;
+   background:rgb(198, 228, 214);
+   padding: 20px 20px;
+   margin-top: 20px;
+   }
+
+ .tech3 {
+   box-sizing: border-box;
+   border-radius: 16px;
+   width: 300px;
+   background:rgb(247, 235, 207);
+   padding: 20px 20px;
+   margin-top: 20px;
+   }
+
+   .tech-title{
+      position: static;
+      width: 346.67px;
+      height: 24px;   
+      margin: 20px;
+      font-size: 20px;
+      color: rgb(14, 14, 14);
+   font-family: Fira Sans;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 0%;
+   text-align: justify;
+      }
+
+   .tech-descrip{
+      margin-bottom: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 12;
+      padding: 0px;
+      color: rgba(14, 14, 14, 0.7);
+      font-family: Fira Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+}
+
+/*Button style*/
+.btn-blue {
+   padding color: none;
+   background-color: #5490F5 ;
+   color: white;
+   border: none;
+   padding: 15px 25px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.btn-green {
+   padding color: none;
+   background-color: #09A15C ;
+   color: white;
+   border: none;
+   padding: 15px 25px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.btn-yellow {
+   padding color: none;
+   background-color: #FFC239 ;
+   color: white;
+   border: none;
+   padding: 15px 25px;
+   border-radius: 8px;
+   cursor: pointer;
 }
