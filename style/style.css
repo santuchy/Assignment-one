@@ -188,31 +188,44 @@ margin-top: 20px;
 
 /*Button style*/
 .btn-blue {
-   padding color: none;
-   background-color: #5490F5 ;
-   color: white;
-   border: none;
-   padding: 15px 25px;
-   border-radius: 8px;
-   cursor: pointer;
+      padding color: none;
+      background-color: #5490F5 ;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      cursor: pointer;
 }
 
 .btn-green {
-   padding color: none;
-   background-color: #09A15C ;
-   color: white;
-   border: none;
-   padding: 15px 25px;
-   border-radius: 8px;
-   cursor: pointer;
+      padding color: none;
+      background-color: #09A15C ;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      cursor: pointer;
 }
 
 .btn-yellow {
-   padding color: none;
-   background-color: #FFC239 ;
-   color: white;
-   border: none;
-   padding: 15px 25px;
-   border-radius: 8px;
-   cursor: pointer;
+      padding color: none;
+      background-color: #FFC239 ;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      cursor: pointer;
 }
+
+.DrYounus{
+      box-sizing: border-box;
+      padding: 80px 48px;
+      border: 1px solid rgba(14, 14, 14, 0.15);
+      border-radius: 16px;
+      background: rgb(255, 255, 255);
+}
+.DrYounus, .quote{
+      color: rgba(14, 14, 14, 0.8);
+      font-weight: 400;
+}
+
