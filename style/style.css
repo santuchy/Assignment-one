@@ -349,3 +349,112 @@ margin-top: 20px;
    margin-left: -8px;
 }
 
+.donate-section{
+      width: 960px;
+      background-color:blanchedalmond ;
+      margin: 10px auto;
+      text-align: center;
+      padding: 30px;
+  }
+  .donate-section p {
+      width: 850px ;
+      margin: 10px auto;
+      color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  
+  }
+  
+  
+      .donation1,.donation2,.donation3,.donation4{
+          padding: 15px;
+          box-sizing: border-box;
+          border: 1px solid rgba(14, 14, 14, 0.15);
+          font-size: 30px;
+          border-radius: 10px;
+          
+      }
+      .donation2{
+          
+          background: rgb(198, 228, 214);
+      }
+      .donation1:hover{
+          cursor: pointer;
+          background-color: rgb(43, 205, 208);
+          color:#000000 ;
+          transform: translateY(-10px);
+      }
+      .donation2:hover{
+          cursor: pointer;
+          background-color: rgb(195, 59, 59);
+          color:rgb(230, 225, 225) ;
+          transform: translateY(10px);
+      }
+      .donation3:hover{
+          cursor: pointer;
+          background-color: rgb(43, 205, 208);
+          color:rgb(255, 253, 253) ;
+          transform: translateY(-10px);
+      }
+      .donation4:hover{
+          cursor: pointer;
+          background-color: rgb(195, 59, 59);
+          color:hsl(0, 10%, 96%) ;
+          transform: translateY(10px);
+      }
+  
+      #input1{
+          width: 600px;
+          margin: 10px auto;
+          padding: 8px;
+          border: none;
+      }
+      #input2{
+          width: 400px;
+          margin: 10px auto;
+          padding: 10px;
+  
+         border: none;
+         border-radius:5px ;
+      }
+      
+        #input1::placeholder{
+          text-align:center;
+        }
+  
+        #letter-container{
+        text-align: center;
+        border-radius: 10px;
+        background-color:rgb(147, 249, 242);
+        }
+        .letter-details{
+          width: 800px;
+        }
+        .letter-details p{
+          width: 530px;
+          margin: 5px auto;
+        }
+        .subscribe1{
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            font-weight: 600;
+            text-align: left;
+            border-radius: 8px;
+            background: rgb(0, 106, 80);
+            padding: 17px 34px 17px 34px;
+            border: none;
+            margin-left:-20px;
+        }
+        .gray-make{
+          color: rgb(52, 52, 53);
+          text-align: center;
+          margin-left: -50px;
+        }
+  .final{
+      display: flex;
+      justify-content: center;
+      padding: 20px
+  }
+  .final2{
+      gap: 50px;
+  }
+  
