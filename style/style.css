@@ -218,14 +218,134 @@ margin-top: 20px;
 }
 
 .DrYounus{
-      box-sizing: border-box;
+      justify-content: center;
+     text-align: left;
+     box-sizing: border-box;
       padding: 80px 48px;
       border: 1px solid rgba(14, 14, 14, 0.15);
       border-radius: 16px;
       background: rgb(255, 255, 255);
 }
+
 .DrYounus, .quote{
       color: rgba(14, 14, 14, 0.8);
       font-weight: 400;
+}
+
+.card{
+      box-sizing: border-box;
+      border-radius: 16px;
+      width: 300px;
+      background: rgba(84, 144, 245, 0.2);
+      padding: 20px 20px;
+      margin-top: 20px;
+}
+.card h4{
+      margin: 8px 0px;
+}
+.card p{
+      margin-bottom: 8px;
+}
+.btn-blue{
+      border-radius: 4px;
+      padding: 4px;
+      color: azure;
+
+      background: rgb(84, 144, 245);
+}
+#biskute{
+      background-color: blanchedalmond;
+}
+.btn-yellow{
+      background-color: chocolate;
+      border-radius: 4px;
+      padding: 4px;
+      color: beige;
+}
+#green{
+      background-color: rgb(124, 223, 124);
+}
+.btn-green{
+      background-color: rgb(226, 91, 143);
+      border-radius: 4px;
+      padding: 4px;
+      color: beige; 
+}
+.btn-green:hover{
+      cursor: pointer;
+      background-color: aqua;
+      color:black ;
+      transform: translateY(4px);
+}
+.btn-blue:hover{
+      cursor: pointer;
+      background-color: rgb(255, 0, 0);
+      color:rgb(255, 254, 254) ;
+      transform: translateY(4px);
+}
+.btn-yellow:hover{
+      cursor: pointer;
+      background-color: rgb(41, 157, 34);
+      color:rgb(199, 8, 8) ;
+      transform: translateY(4px);
+}
+.news-section,.letter-container{ 
+      background-color:rgb(244, 237, 237) ;
+      width: 960px;
+      margin: 30px auto;
+      padding: 30px;
+   
+}
+.new-details{
+      width: 940px;
+      margin: 0 auto;
+ 
+}
+.new-details p{
+      color: rgba(14, 14, 14, 0.7);
+      font-family: Fira Sans;
+      margin-bottom: 10px;
+}
+.image-news{
+      width: 300px;
+      border-radius: 10px;
+}
+.news-card-container{
+      width: 800px;
+      margin: 10px auto;
+      border-radius: 10px;
+      box-shadow: 0 8px 8px rgb(159, 154, 198);
+      display:flex;
+      background-color: aliceblue;
+      padding:20px;
+      justify-content: space-between;
+      gap: 20px;
+}
+.news-card-container2{
+      width: 800px;
+      margin: 10px auto;
+      border-radius: 10px;
+      box-shadow: 0 8px 8px rgb(159, 154, 198);
+      display:flex;
+      flex-direction: row-reverse;
+      background-color: aliceblue;
+      padding:20px;
+      justify-content: space-between;
+      gap: 20px;
+}
+.date-container{
+      display: flex;
+      gap:10px ;
+      color: rgba(14, 14, 14, 0.7);
+      font-family: Fira Sans;
+}
+.paragraph{
+      margin: 10px 0px;
+      color: rgba(14, 14, 14, 0.7);
+      font-family: Fira Sans;
+   
+}
+#read{
+   margin-left: -8px;
 }
 
